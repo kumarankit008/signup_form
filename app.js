@@ -16,8 +16,8 @@ app.get("/",function(req,res){
 //post
 app.post("/",function(req,res){
     
-    const apiKey = "f071201d485dab10b74dd18035933051-us6";
-    const listID ="28dac84dac";
+    const apiKey = "API_KEY";
+    const listID ="LIST_ID";
 
     const firstName = req.body.firstName;
     const lastName = req.body.secondName;
